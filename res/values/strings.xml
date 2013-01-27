@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyPhone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+	<string name="app_about">重要</string>
+	<string name="app_about_msg">你確定要關閉嗎!?</string>
+	<string name="str_ok">確定</string>
+	<string name="str_no">取消</string>
+	<string name="str_cancel">取消</string>     
+	
+	<string name="str_title">按我開始選擇</string>
+	<string name="str_body">你選擇的是：</string>
+	
+	<string name="str_url">http://www.dubblogs.cc:8751/Android/Test/Apk/EX04_14.apk</string>
+	
+	<string name="my_gallery_text_pre">這是圖片</string>
+	<string name="my_gallery_text_post">號</string>
+		
+	<string name="str_list1">最後一戰：星環戰役</string>
+	<string name="str_list2">火影忍者：破碎的羈絆</string>
+	<string name="str_list3">吉他英雄：世界巡迴 </string>
+	<string name="str_list4">極速快感：臥底風雲</string>
+	<string name="str_list5">C++語言</string>
+	<string name="str_list6">Java語言</string>
+	<string name="str_list7">PHP語言</string>
+	<string name="str_list8">Basic語言</string>
+	<string name="str_menu_list1">顯示清單1</string>
+	<string name="str_menu_list2">顯示清單2</string>
+	
+	<string name="str_title1">部落格ID：</string>
+	<string name="str_title2">登入帳號：</string>
+	<string name="str_title3">登入密碼：</string>
+	<string name="str_title4">文章標題：</string>
+	<string name="str_title5">文章內容：</string>
+	<string name="str_button">發佈文章</string>
+  	
+	<string name="str_NewMenu">新增</string>
+	<string name="str_DeleteMenu">刪除</string>
+	<string name="str_SaveMenu">儲存</string>
+	<string name="str_SaveDialog">檔名</string>
+		
+	<string name="str_sim_list0">SIM卡狀態</string>
+	<string name="str_sim_list1">SIM卡卡號</string>
+	<string name="str_sim_list2">SIM卡供應商代碼</string> 
+	<string name="str_sim_list3">SIM卡供應商名稱</string> 
+	<string name="str_sim_list4">SIM卡國別</string> 
+
+	<string name="str_msg1">旋轉為LANDSCAPE</string>
+	<string name="str_msg2">旋轉為PORTRAIT</string>
+	
+	<array name="items_irdc_dialog">
+		<item>萌點女僕餐廳</item>
+		<item>一鍋日式小火鍋</item>
+		<item>好吃國巴西窯烤</item>  
+	</array>
+    
+	<declare-styleable name="Gallery">
+		<attr name="android:galleryItemBackground" />
+	</declare-styleable> 
+	
+</resources>

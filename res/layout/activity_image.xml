@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  android:id="@+id/widget34"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+  
+  <ImageView
+  android:id="@+id/myImageView1"
+  android:layout_width="320px"
+  android:layout_height="280px"
+  android:layout_x="0px"
+  android:layout_y="36px"
+  />
+  
+  <ImageView
+  android:id="@+id/myImageView2"
+  android:layout_width="104px"
+  android:layout_height="157px"
+  android:layout_x="101px"
+  android:layout_y="119px"
+  />
+  
+  <Button
+  android:id="@+id/myButton1"
+  android:layout_width="105px"
+  android:layout_height="66px"
+  android:text="pic1"
+  android:layout_x="9px"
+  android:layout_y="356px"
+  />
+  
+  <Button
+  android:id="@+id/myButton2"
+  android:layout_width="105px"
+  android:layout_height="66px"
+  android:text="pic2"
+  android:layout_x="179px"
+  android:layout_y="356px"
+  />
+
+  <ImageView
+      android:id="@+id/myImageView3"
+      android:layout_width="189dp"
+      android:layout_height="142dp"
+      android:layout_x="14dp"
+      android:layout_y="292dp"
+      android:src="@drawable/ex04_23" />
+
+  <Button
+      android:id="@+id/myButton3"
+      style="?android:attr/buttonStyleSmall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_x="199dp"
+      android:layout_y="244dp"
+      android:text="NetLoadImage" />
+
+</AbsoluteLayout>

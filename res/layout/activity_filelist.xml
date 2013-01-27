@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <AbsoluteLayout
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+    <TextView
+      android:id="@+id/mText"
+      android:layout_width="wrap_content"
+      android:layout_height="31px"
+      android:textSize="18sp"
+      android:layout_x="7px"
+      android:layout_y="25px"
+      android:text="@string/str_title"
+      android:textColor="@color/black"
+    >
+    </TextView>
+
+    <Button
+        android:id="@+id/mButton"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_x="100px"
+        android:layout_y="72px"
+        android:text="search" >
+
+    </Button>
+    <TextView
+      android:id="@+id/mResult"
+      android:layout_width="296px"
+      android:layout_height="283px"
+      android:layout_x="10px"
+      android:layout_y="132px"
+      android:textColor="@color/blue"
+    >
+    </TextView>
+
+    <EditText
+        android:id="@+id/mKeyword"
+        android:layout_width="198px"
+        android:layout_height="wrap_content"
+        android:layout_x="127dp"
+        android:layout_y="8dp"
+        android:ems="10"
+        android:textSize="18sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12dp"
+        android:layout_y="290dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="339dp"
+        android:text="TextView" />
+
+  </AbsoluteLayout>
+  

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myphone"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission> 
+     
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.myphone.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.myphone.BundleActivity" ></activity>
+        <activity android:name="com.example.myphone.NullActivity" ></activity>
+        <activity android:name="com.example.myphone.FontActivity" ></activity>
+        <activity android:name="com.example.myphone.GalleryActivity" ></activity>
+        <activity android:name="com.example.myphone.WaitingActivity" ></activity>
+        <activity android:name="com.example.myphone.ListenerActivity" ></activity>
+        <activity android:name="com.example.myphone.ImageActivity" ></activity>
+        <activity android:name="com.example.myphone.DropdownActivity" ></activity>
+        <activity android:name="com.example.myphone.FilelistActivity" ></activity>
+        <activity android:name="com.example.myphone.ClockActivity" ></activity>
+        <activity android:name="com.example.myphone.DatetimeActivity" ></activity>
+        <activity android:name="com.example.myphone.ImageviewActivity" ></activity>
+        <activity android:name="com.example.myphone.ProgressActivity" ></activity>
+        <activity android:name="com.example.myphone.GridviewActivity" ></activity>
+        <activity android:name="com.example.myphone.ListviewActivity" ></activity>
+        <activity android:name="com.example.myphone.ListactivityActivity" ></activity>
+        <activity android:name="com.example.myphone.ListfileActivity" ></activity>
+        <activity android:name="com.example.myphone.MatrixActivity" ></activity>
+        <activity android:name="com.example.myphone.FinishActivity" ></activity>
+        <activity android:name="com.example.myphone.SimActivity" ></activity>
+        <activity android:name="com.example.myphone.OrientActivity" 
+            	  android:screenOrientation="portrait">>
+        </activity>
+        <activity android:name="com.example.myphone.StorageActivity" ></activity>
+        <activity android:name="com.example.myphone.SdcardActivity" ></activity>
+        <activity android:name="com.example.myphone.HttpActivity" ></activity>
+        <activity android:name="com.example.myphone.WebviewActivity" ></activity>
+        <activity android:name="com.example.myphone.UriActivity" ></activity>
+        <activity android:name="com.example.myphone.RpcActivity" ></activity>
+        <activity android:name="com.example.myphone.InstallActivity" ></activity>
+        <activity android:name="com.example.myphone.SimAdapter" ></activity>
+        <activity android:name="com.example.myphone.Sdcard_ex1" ></activity>
+        <activity android:name="com.example.myphone.Sdcard_ex2" ></activity>
+        <activity android:name="com.example.myphone.XMLActivity" ></activity>
+        <activity android:name="com.example.myphone.EventActivity" ></activity>
+        <activity android:name="com.example.myphone.ScrollActivity" ></activity>
+        <activity android:name="com.example.myphone.ListAdapterActivity" ></activity>
+        
+        </application>
+
+</manifest>
